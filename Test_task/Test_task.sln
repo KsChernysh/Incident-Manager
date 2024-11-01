@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_task", "Test_task.csproj", "{C73B3E7A-55DA-4F70-B147-02FBEBA3BB0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "..\DataLayer\DataLayer.csproj", "{7860F987-66CB-410E-87EF-70C5942E0798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C73B3E7A-55DA-4F70-B147-02FBEBA3BB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C73B3E7A-55DA-4F70-B147-02FBEBA3BB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C73B3E7A-55DA-4F70-B147-02FBEBA3BB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7860F987-66CB-410E-87EF-70C5942E0798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7860F987-66CB-410E-87EF-70C5942E0798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7860F987-66CB-410E-87EF-70C5942E0798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7860F987-66CB-410E-87EF-70C5942E0798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
