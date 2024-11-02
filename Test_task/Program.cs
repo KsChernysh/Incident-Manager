@@ -1,5 +1,8 @@
 using DataLayer.Data;
+using DataLayer.Interfaces;
+using DataLayer.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Test_task.Validator;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +15,9 @@ builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("Test_Task");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+builder.Services.AddScoped<IEntityRepository, EntityRepository>();
+builder.Services.AddScoped<ValidationScripts>();
+builder.Services.AddScoped<ResponseHelper>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
